@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PragatiWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      
+
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <!-- <span><i class="fas fa-phone"></i> +91-7678297818</span> -->
+                <span><i class="fas fa-envelope"></i> info@pragtiweb.in</span>
+                <!-- <span><i class="fas fa-home"></i>B-59 LGF, Sarvodaya Enclave New Delhi - 110017</span> -->
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <!-- <img src="images/logo.png" alt="PragatiWeb Logo" class="logo"> -->
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="main-nav">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About Us</a>
+                <!-- <div class="dropdown mobile-dropdown"> -->
+                    <!-- <a href="#" class="dropdown-toggle">
+                        <i class="fas fa-sign-in-alt"></i> Access Portal <i class="fas fa-chevron-down"></i>
+                    </a> -->
+                    <!-- <div class="dropdown-menu">
+                        <a target="_blank" href="http://103.25.174.53:8080/mobiwebzone/backoffice/index.html#!/login">
+                            <i class="fas fa-school"></i> School Management
+                        </a>
+                        <a target="_blank" href="http://103.25.174.53:8080/mobiwebzone/backoffice/index.html#!/login">
+                            <i class="fas fa-tasks"></i> Project Management
+                        </a>
+                    </div> -->
+                <!-- </div> -->
+                <a href="#services">Services</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact Us</a>
+                <a href="./auth/login.html" target="_blank">Admin</a>
+                <!-- <button class="btn" onclick="window.open('http://103.25.174.53:8000/login', '_blank')">Admin Login</button> -->
+            </nav>
+        </div>
+    </header> 
+
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to PragatiWeb</h1>
+                <p class="hero-subtitle">Transforming Through Technology</p>
+                <!-- <p class="hero-description">Empowering schools with innovative solutions for better administration, learning, and growth.</p> -->
+                <div class="hero-buttons">
+                   
+                    <button class="cta-button secondary" onclick="location.href='#about'">
+                        <i class="fas fa-info-circle"></i> Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-illustration.svg" alt="Education Technology Illustration">
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="about" class="section mission-section" style="padding-bottom: 2px !important;">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-card">
+                   
+                    <h2 class="section-title">About Us</h2>
+                    <p>PragatiWeb is a Web development and Mobile App development company dedicated to providing innovative digital solutions to businesses worldwide. We specialize in creating cutting-edge websites, robust web applications, and engaging mobile apps tailored to our clients' specific needs.</p>
+                    
+                    
+                </div>
+                <div class="mission-card">
+                    
+                    <h2 class="section-title">Our Mission</h2>
+                    <p>Our Mission is to empower our clients with latest technologies for optimizing their operations and maximizing their performance in the competitive world.</p>
+                    </div>
+                
+                
+            </div>
+
+            <div class="mission-statement">
+                <div class="statement-content">
+                    <h3>Our Vision for the Future</h3>
+                    <p>To be a leading institution that nurtures innovation, fosters academic excellence, and shapes responsible global citizens through holistic education and advanced technology integration.</p>
+                    <a href="#contact" class="cta-button secondary">
+                        <i class="fas fa-arrow-right"></i>
+                        Join Our Journey
+                    </a>
+                </div>
+                <div class="statement-image">
+                    <img src="images/vision-illustration.svg" alt="Vision Illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="service-cta" style="margin: 0 !important; padding: 0 !important;">
+        <a href="#contact" class="cta-button primary">
+            <i class="fas fa-paper-plane"></i>
+            Contact Us for Trial
+        </a>
+    </div>
+
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 style="font-size: 2rem !important;">Our Products</h2>
+            <div class="product-cards">
+                <div class="product-card">
+                    <div class="icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3>School Management Software</h3>
+                    <h4 class="trial">(1 Year Free Trial)</h4>
+                    <p class="description" style="margin-bottom:  0 !important;">
+                        Our cloud based School Management Software is an all-in-one solution designed to streamline the day-to-day operations of educational institutions. With intuitive features for managing student data, attendance, grades, schedules, fees, and communications, our software enhances efficiency and improves collaboration between teachers, students, and parents.
+                    </p>
+                    <br>
+                    <button onclick="showSchPortal()">Learn More <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="product-card">
+                    <div class="icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3>Project Management Software</h3>
+                    <!-- <h4 class="trial">(1 Month Free Trial)</h4> -->
+                    <p class="description">
+                        Our cloud-based Project Management Software is a comprehensive tool that tracks and manages daily project activities, 
+                        with expert project monitoring support from seasoned professionals.
+                    </p>
+                    
+                    <button class="learn-more" onclick="showProjPortal()">Learn More <i class="fas fa-arrow-right"></i></button>
+                </div>
+                
+                <style>
+                    
+                    .icon {
+                        font-size: 2rem;
+                        color: #4CAF50;
+                    }
+                
+                    h3 {
+                        margin: 10px 0 5px;
+                        font-size: 1.5rem;
+                        color: #333;
+                    }
+                
+                    .trial {
+                        color: #4CAF50;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                
+                    .description {
+                        font-size: 14px;
+                        color: #555;
+                        margin-bottom: 15px;
+                        text-align: left;
+                    }
+                
+                    .features h4 {
+                        margin: 10px 0;
+                        color: purple;
+                        font-size: 1.2rem;
+                    }
+                
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                        text-align: left;
+                    }
+                
+                    ul li {
+                        font-size: 14px;
+                        padding: 5px 0;
+                        color: #666;
+                        margin-left: 5%;
+                    }
+
+                    ul li strong{
+                        font-size: 14px;
+                        padding: 5px 0;
+                        color: rgb(6, 6, 108);
+                    }
+                
+                    .learn-more {
+                        background: #4CAF50;
+                        color: white;
+                        border: none;
+                        padding: 10px 20px;
+                        border-radius: 8px;
+                        font-size: 1rem;
+                        cursor: pointer;
+                        transition: 0.3s;
+                    }
+                
+                    .learn-more:hover {
+                        background: #45a049;
+                    }
+                </style>
+                
+             
+            </div>
+        </div>
+    </section>
+    <div class="service-cta" style="margin: 0 !important; padding: 0 !important;">
+        <a href="#contact" class="cta-button primary">
+            <i class="fas fa-paper-plane"></i>
+            Contact Us for Trial
+        </a>
+    </div>
+    
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                  <div>
+                        <h3>Web Development</h3>
+                        <p>Custom web applications tailored to your specific needs. We create responsive, user-friendly websites that deliver results.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Responsive Design</li>
+                            <li><i class="fas fa-check"></i> SEO Optimization</li>
+                            <li><i class="fas fa-check"></i> Performance Tuning</li>
+                        </ul>
+                  </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div>
+                        <h3>Mobile Apps</h3>
+                        <p>Native and cross-platform mobile applications that provide seamless user experience across all devices.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> iOS & Android</li>
+                            <li><i class="fas fa-check"></i> UI/UX Design</li>
+                            <li><i class="fas fa-check"></i> App Maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div>
+                        <h3>Business Transformation</h3>
+                        <p>Unlock unparalleled business growth with SAP-driven transformation, streamlining operations and boosting efficiency.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> SAP Deployment</li>
+                            <li><i class="fas fa-check"></i> MES Integration</li>
+                            <li><i class="fas fa-check"></i> SAP Analytics Dashboard</li>
+                        </ul>
+                        <button onclick="window.showBusinessTransformPortal()">Learn More <i class="fas fa-arrow-right"></i></button>
+                      
+                    </div>
+                </div>
+                
+               
+            </div>
+            <div class="service-cta" style="margin: 0 !important; padding: 0 !important;">
+                <a href="#contact" class="cta-button primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Contact Us for Trial
+                </a>
+            </div>
+            <div class="service-cta">
+                <h3>Need a Custom Solution?</h3>
+                <p>Let's discuss how we can help your business grow with our technology solutions.</p>
+                <a href="#contact" class="cta-button primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Get in Touch
+                </a>
+         </div>
+    </section>
+
+    <section id="contact" class="contact-section"  style="padding-top: 0 !important;">
+        <div class="container">
+            <h2>Contact Us</h2>
+    
+    
+            <div class="contact-content">
+                <div class="contact-form">
+               
+                <form name="contact" id="contactForm">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="mobileno" placeholder="Mobile No" pattern="[0-9]{10}" required>
+                    <input type="text" name="institution_name" placeholder="Institution Name" required>
+                    <select name="product_type" id="productType"  >
+                        <option value="">Select Product Type</option>
+                        <option value="School Management">SAP Implementation</option>
+                        <option value="School Management">School Management</option>
+                        <option value="Project Monitoring">Project Monitoring</option>
+                        <option value="Customized Software">Customized Software</option>
+                    </select>
+                    <input type="text" name="city" placeholder="City Name" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" id="submitBtn">Send Message</button>
+                </form>
+
+                
+                <div id="status" style="margin-top: 20px; display: none;"></div>
+                    
+                </div>
+
+                <div id="popup-message" class="popup">
+                    <div class="popup-content">
+                        <span class="close-btn" onclick="closePopup()">&times;</span>
+                        <h2>Success!</h2>
+                        <p id="popup-text"></p>
+                    </div>
+                </div>
+                
+                    
+                <div class="contact-info">
+                   
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@pragtiweb.in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- School Portal -->
+        
+    <div id="schoolportal" class="portal-section hidden">
+        <div class="container">
+            <div class="portal-header">
+                <h2>School Management Software</h2>
+                <button onclick="hideSchPortal()" class="close-portal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="features">
+                <h4>Key Features</h4>
+                <ul>
+                    <li><strong>Student Management:</strong> Maintain detailed student records and track academic progress.</li>
+                    <li><strong>Marks & Reports:</strong> Manage marks, assessments, and generate real-time reports effortlessly.</li>
+                    <li><strong>Fee Management:</strong> Simplify fee collection and payment tracking.</li>
+                    <li><strong>Teacher Management:</strong> Register teachers, track attendance, and manage payroll efficiently.</li>
+                </ul>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <!-- Project Management Portal -->
+    <div id="projectportal" class="portal-section hidden">
+        <div class="container">
+            <div class="portal-header">
+                <h2>Project Management Software</h2>
+                <button onclick="hideProjPortal()" class="close-portal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="features">
+                <h4>Key Features</h4>
+        
+                <h4>Task Management & Project Planning</h4>
+                <ul>
+                    <li><strong>Task Creation & Assignment:</strong> Break projects into tasks and assign them to team members.</li>
+                    <li><strong>Due Dates & Deadlines:</strong> Set deadlines to ensure milestones and project goals are met.</li>
+                    <li><strong>Subtasks:</strong> Divide larger tasks into smaller, manageable components.</li>
+                    <li><strong>Priority Levels:</strong> Assign priority to focus on high-impact items first.</li>
+                </ul>
+        
+                <h4>Issue Reporting & Creation</h4>
+                <ul>
+                    <li><strong>Detailed Issue Description:</strong> Report issues with clear descriptions for better resolution.</li>
+                    <li><strong>Issue Types:</strong> Categorize issues (bugs, feature requests, improvements, tasks, etc.).</li>
+                    <li><strong>Priority Levels:</strong> Set issue urgency (Low, Medium, High, Critical) for focused resolution.</li>
+                </ul>
+        
+                <h4>Reporting & Analytics</h4>
+                <ul>
+                    <li><strong>Progress Reports:</strong> Generate real-time reports on task completion and milestones.</li>
+                    <li><strong>Notifications:</strong> Send email alerts to project users about critical events.</li>
+                </ul>
+        
+                <h4>User & Permissions Management</h4>
+                <ul>
+                    <li><strong>Role-Based Access Control:</strong> Manage user permissions based on roles (admins, developers, reviewers, etc.).</li>
+                    <li><strong>Audit Trail:</strong> Keep a log of all actions for accountability and tracking.</li>
+                </ul>
+            </div>
+            <br>
+            
+        </div>
+    </div> 
+    
+
+ <!-- Business excellence Portal start-->
+<div id="businesstransform" class="portal-section hidden">
+    <div class="container">
+        <div class="portal-header">
+            <h2>Business Transformation</h2>
+            <button onclick="hideBusinessTransformPortal()" class="close-portal">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="features" >
+            <h4>About Us</h4>
+            <p>Welcome to PragatWeb, a trusted leader in SAP HANA implementation services. With a proven track record of delivering cutting-edge solutions, we empower industries to transform their operations, streamline processes, and achieve sustainable growth through the power of SAP S/4 HANA.</p>
+
+            <h4>Our Expertise</h4>
+            <ul>
+                <li><strong>End-to-End Implementation:</strong> From planning and design to deployment and support, we manage the full lifecycle of SAP S/4 HANA projects.</li>
+                <li><strong>Industry-Specific Solutions:</strong> Expertise in delivering customized solutions for manufacturing, retail, energy, healthcare, and more.</li>
+                <li><strong>Integration Excellence:</strong> Seamless integration with existing ERP systems, MES, and third-party applications via our smart API for real-time data exchange.</li>
+                <li><strong>AIML-Based Data Innovation:</strong> Leverage SAP S/4 HANA’s in-memory computing with AI/ML-driven transformation for real-time insights and operational efficiency.</li>
+            </ul>
+
+            <h4>Why Choose Us?</h4>
+            <ul>
+                <li><strong>Proven Success:</strong> Over 20 years of experience delivering successful SAP projects across India and globally.</li>
+                <li><strong>Certified Experts:</strong> Our team includes SAP-certified consultants with deep technical and industry knowledge.</li>
+                <li><strong>Client-Centric Approach:</strong> Smart analytics-driven gap analysis and process reengineering aligned with your business goals.</li>
+                <li><strong>Sustainability Focus:</strong> Implementations aligned with ESG goals, optimizing resource use and enabling sustainability strategies.</li>
+                <li><strong>Post-Implementation Support:</strong> End-to-end training, maintenance, and 24/7 support to ensure lasting success.</li>
+            </ul>
+
+            <h4>Key Services</h4>
+            <ul>
+                <li><strong>SAP HANA Deployment:</strong> Comprehensive implementation of SAP S/4 HANA modules including Finance, SCM, and Embedded Analytics.</li>
+                <li><strong>System Integration:</strong> Connect SAP HANA with ERP, MES, and BI tools for unified business operations.</li>
+                <li><strong>Data Migration & Optimization:</strong> Secure migration of legacy data with minimal downtime.</li>
+                <li><strong>Custom Analytics Dashboards:</strong> Interactive SAP Analytics dashboards for real-time insights.</li>
+                <li><strong>Training & Change Management:</strong> Empower teams to fully leverage SAP HANA capabilities.</li>
+            </ul>
+
+            <h4>Our Approach</h4>
+            <ul>
+                <li><strong>Discovery & Planning:</strong> Assessing business needs, mapping processes, and designing a custom SAP roadmap.</li>
+                <li><strong>Implementation & Integration:</strong> Deploying SAP HANA with precision, ensuring full system compatibility.</li>
+                <li><strong>Testing & Validation:</strong> Ensuring robust performance, security, and scalability.</li>
+                <li><strong>Go-Live & Support:</strong> Seamless transition to operations with continuous support and improvement.</li>
+            </ul>
+
+            <h4>Success Stories</h4>
+            <ul>
+                <li><strong>Manufacturing:</strong> Implemented SAP S/4 HANA for a manufacturer, cutting supply chain processing time by 30% and enhancing demand forecasting.</li>
+                <li><strong>Retail:</strong> Deployed SAP HANA for a retail chain, streamlining inventory and delivering customer insights via advanced analytics.</li>
+            </ul>
+        </div>
+        <br>
+    </div>
+</div>
+
+<!-- Business excellence Portal end-->
+
+
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="images/logo.png" alt="EduTech Logo" class="footer-logo">
+                    <p>Transforming education through innovative technology solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#about">Our Mission</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="footer-bottom" style="text-align: center;">
+                <p>&copy; 2025 PragatiWeb. All rights reserved.</p>
+                <p >Designed & Developed by PragatiWeb</p>
+            </div>
+        </div>
+    </footer>
+
+    
+  <script src="script.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,2632 @@
+2025-06-25 06:36:01 - POST data:
+Array
+(
+    [name] => Arun
+    [email] => nautiyalar@gmail.com
+    [mobileno] => 7838400124
+    [institution_name] => Test
+    [product_type] => School Management
+    [city] => gurgaon
+    [message] => Test
+)
+
+2025-06-25 06:36:01 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-237d8695440sm124095875ad.185 - gsmtp
+
+2025-06-25 06:36:01 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 06:36:02 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 06:36:02 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 06:36:02 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 06:36:02 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 06:36:03 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 06:36:03 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 06:36:03 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 06:36:03 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 06:36:03 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 06:36:03 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 06:36:04 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 06:36:04 - [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-237d8695440sm124095875ad.185 - gsmtp
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: RCPT TO:<nautiyalar@gmail.com>
+
+2025-06-25 06:36:04 - [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-237d8695440sm124095875ad.185 - gsmtp
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 06:36:04 - [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-237d8695440sm124095875ad.185 - gsmtp
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 06:36:01 +0200
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: To: nautiyalar@gmail.com
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Subject: Thank You for Contacting Us
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Message-ID: <c9S4zrpWDZrbvHpU5hNhm6P1mTdqfBXUrZHYogQTHg@localhost>
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:  boundary="b1=_c9S4zrpWDZrbvHpU5hNhm6P1mTdqfBXUrZHYogQTHg"
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: --b1=_c9S4zrpWDZrbvHpU5hNhm6P1mTdqfBXUrZHYogQTHg
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Dear Arun,
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Thank you for reaching out! We have received your message.
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Our Team will connect at the earliest
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Best regards,
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Team PragatiWeb
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: --b1=_c9S4zrpWDZrbvHpU5hNhm6P1mTdqfBXUrZHYogQTHg
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:             <div style="background-color: #007bff; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">Thank You, Arun!</h1>
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Thank you for reaching out to us! We have received your message and appreciate you taking the time to get in touch.</p>
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Our team will connect with you at the earliest opportunity.</p>
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 06:36:04 - [1] CLIENT -> SERVER:                 <p style="font-size: 14px; color: #666666; margin: 0;">Best regards,<br><strong>Team PragatiWeb</strong></p>
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER: --b1=_c9S4zrpWDZrbvHpU5hNhm6P1mTdqfBXUrZHYogQTHg--
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:05 - [1] CLIENT -> SERVER: .
+
+2025-06-25 06:36:06 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750826165 d9443c01a7336-237d8695440sm124095875ad.185 - gsmtp
+
+2025-06-25 06:36:06 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 06:36:06 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-237d8695440sm124095875ad.185 - gsmtp
+
+2025-06-25 06:36:06 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-749c883590dsm3437087b3a.100 - gsmtp
+
+2025-06-25 06:36:06 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 06:36:06 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 06:36:06 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 06:36:07 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 06:36:07 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 06:36:07 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 06:36:07 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 06:36:07 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 06:36:07 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 06:36:07 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 06:36:07 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 06:36:08 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 06:36:08 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 06:36:08 - [2] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-749c883590dsm3437087b3a.100 - gsmtp
+
+2025-06-25 06:36:08 - [1] CLIENT -> SERVER: RCPT TO:<info.pragatiweb@gmail.com>
+
+2025-06-25 06:36:08 - [2] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-749c883590dsm3437087b3a.100 - gsmtp
+
+2025-06-25 06:36:08 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 06:36:09 - [2] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-749c883590dsm3437087b3a.100 - gsmtp
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 06:36:06 +0200
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: To: info.pragatiweb@gmail.com
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Subject: New Contact Form Submission from Arun
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Message-ID: <ipDmkqcrQMVR5ZDistzHGF3fHmbrmnU8LUAnuTY8VI@localhost>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:  boundary="b1=_ipDmkqcrQMVR5ZDistzHGF3fHmbrmnU8LUAnuTY8VI"
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: --b1=_ipDmkqcrQMVR5ZDistzHGF3fHmbrmnU8LUAnuTY8VI
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: New submission:
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Name: Arun
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Mobile No: 7838400124
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Email: nautiyalar@gmail.com
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Product Type: School Management
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Institution: Test
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: City: gurgaon
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Message: Test
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: --b1=_ipDmkqcrQMVR5ZDistzHGF3fHmbrmnU8LUAnuTY8VI
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:             <div style="background-color: #28a745; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">New Contact Form Submission</h1>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                 <h2 style="font-size: 18px; color: #333333; margin-top: 0;">Submission Details</h2>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                 <table style="width: 100%; border-collapse: collapse;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Name</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Arun</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Mobile No</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">7838400124</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Email</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">nautiyalar@gmail.com</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Product Type</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">School Management</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Institution</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">City</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">gurgaon</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                    
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Message</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                 </table>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin: 0;">Transparency is key! We're here to answer your questions.</p>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: --b1=_ipDmkqcrQMVR5ZDistzHGF3fHmbrmnU8LUAnuTY8VI--
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:36:09 - [1] CLIENT -> SERVER: .
+
+2025-06-25 06:36:10 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750826170 d2e1a72fcca58-749c883590dsm3437087b3a.100 - gsmtp
+
+2025-06-25 06:36:10 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 06:36:10 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-749c883590dsm3437087b3a.100 - gsmtp
+
+2025-06-25 06:39:00 - POST data:
+Array
+(
+    [name] => Arun
+    [email] => nautiyalar@gmail.com
+    [mobileno] => 7838400124
+    [institution_name] => Test
+    [product_type] => School Management
+    [city] => Test
+    [message] => Test
+)
+
+2025-06-25 06:39:00 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-237d83cf981sm125598595ad.59 - gsmtp
+
+2025-06-25 06:39:00 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 06:39:00 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 06:39:00 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 06:39:01 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 06:39:01 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 06:39:01 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 06:39:01 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 06:39:01 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 06:39:01 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 06:39:02 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 06:39:02 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 06:39:02 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 06:39:02 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 06:39:02 - [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-237d83cf981sm125598595ad.59 - gsmtp
+
+2025-06-25 06:39:02 - [1] CLIENT -> SERVER: RCPT TO:<nautiyalar@gmail.com>
+
+2025-06-25 06:39:02 - [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-237d83cf981sm125598595ad.59 - gsmtp
+
+2025-06-25 06:39:02 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 06:39:03 - [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-237d83cf981sm125598595ad.59 - gsmtp
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 06:39:00 +0200
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: To: nautiyalar@gmail.com
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Subject: Thank You for Contacting Us
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Message-ID: <lMnekxlgU4r3c0irsPlEpADERXiytR9664GmHY7rqw@localhost>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:  boundary="b1=_lMnekxlgU4r3c0irsPlEpADERXiytR9664GmHY7rqw"
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: --b1=_lMnekxlgU4r3c0irsPlEpADERXiytR9664GmHY7rqw
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Dear Arun,
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Thank you for reaching out! We have received your message.
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Our Team will connect at the earliest
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Best regards,
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Team PragatiWeb
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: --b1=_lMnekxlgU4r3c0irsPlEpADERXiytR9664GmHY7rqw
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:             <div style="background-color: #007bff; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">Thank You, Arun!</h1>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Thank you for reaching out to us! We have received your message and appreciate you taking the time to get in touch.</p>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Our team will connect with you at the earliest opportunity.</p>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:                 <p style="font-size: 14px; color: #666666; margin: 0;">Best regards,<br><strong>Team PragatiWeb</strong></p>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: --b1=_lMnekxlgU4r3c0irsPlEpADERXiytR9664GmHY7rqw--
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:03 - [1] CLIENT -> SERVER: .
+
+2025-06-25 06:39:04 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750826344 d9443c01a7336-237d83cf981sm125598595ad.59 - gsmtp
+
+2025-06-25 06:39:04 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 06:39:04 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-237d83cf981sm125598595ad.59 - gsmtp
+
+2025-06-25 06:39:04 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-315f5387675sm632989a91.9 - gsmtp
+
+2025-06-25 06:39:04 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 06:39:05 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 06:39:05 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 06:39:05 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 06:39:05 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 06:39:08 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 06:39:08 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 06:39:08 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 06:39:08 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 06:39:08 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 06:39:08 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 06:39:08 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 06:39:08 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 06:39:09 - [2] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-315f5387675sm632989a91.9 - gsmtp
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: RCPT TO:<info.pragatiweb@gmail.com>
+
+2025-06-25 06:39:09 - [2] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-315f5387675sm632989a91.9 - gsmtp
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 06:39:09 - [2] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-315f5387675sm632989a91.9 - gsmtp
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 06:39:04 +0200
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: To: info.pragatiweb@gmail.com
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Subject: New Contact Form Submission from Arun
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Message-ID: <2N2IxjO1Ba452TTlaFTvdD4x7xEZap2nnKJy3cvrjA@localhost>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:  boundary="b1=_2N2IxjO1Ba452TTlaFTvdD4x7xEZap2nnKJy3cvrjA"
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: --b1=_2N2IxjO1Ba452TTlaFTvdD4x7xEZap2nnKJy3cvrjA
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: New submission:
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Name: Arun
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Mobile No: 7838400124
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Email: nautiyalar@gmail.com
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Product Type: School Management
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Institution: Test
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: City: Test
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Message: Test
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: --b1=_2N2IxjO1Ba452TTlaFTvdD4x7xEZap2nnKJy3cvrjA
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:             <div style="background-color: #28a745; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">New Contact Form Submission</h1>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                 <h2 style="font-size: 18px; color: #333333; margin-top: 0;">Submission Details</h2>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                 <table style="width: 100%; border-collapse: collapse;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Name</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Arun</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Mobile No</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">7838400124</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Email</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">nautiyalar@gmail.com</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Product Type</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">School Management</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Institution</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">City</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                    
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Message</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                 </table>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin: 0;">Transparency is key! We're here to answer your questions.</p>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: --b1=_2N2IxjO1Ba452TTlaFTvdD4x7xEZap2nnKJy3cvrjA--
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: 
+
+2025-06-25 06:39:09 - [1] CLIENT -> SERVER: .
+
+2025-06-25 06:39:10 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750826350 98e67ed59e1d1-315f5387675sm632989a91.9 - gsmtp
+
+2025-06-25 06:39:10 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 06:39:10 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-315f5387675sm632989a91.9 - gsmtp
+
+2025-06-25 07:01:05 - POST data:
+Array
+(
+    [name] => Arun
+    [email] => nauiyalar@gmail.com
+    [mobileno] => 7838400124
+    [institution_name] => Pragatiweb
+    [product_type] => School Management
+    [city] => Gurgaon
+    [message] => Test
+)
+
+2025-06-25 07:01:06 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-237d83955a3sm121478035ad.36 - gsmtp
+
+2025-06-25 07:01:06 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:01:06 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:01:06 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:01:06 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:01:06 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:01:07 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:01:07 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:01:07 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:01:07 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:01:07 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:01:07 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:01:07 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:01:07 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:01:08 - [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-237d83955a3sm121478035ad.36 - gsmtp
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: RCPT TO:<nauiyalar@gmail.com>
+
+2025-06-25 07:01:08 - [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-237d83955a3sm121478035ad.36 - gsmtp
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:01:08 - [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-237d83955a3sm121478035ad.36 - gsmtp
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:01:05 +0200
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: To: nauiyalar@gmail.com
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Subject: Thank You for Contacting Us
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Message-ID: <yRUtRD9hJcpRVjeiYUFyr73La20tNNTJoFSqRlUSDQ@localhost>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:  boundary="b1=_yRUtRD9hJcpRVjeiYUFyr73La20tNNTJoFSqRlUSDQ"
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: --b1=_yRUtRD9hJcpRVjeiYUFyr73La20tNNTJoFSqRlUSDQ
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Dear Arun,
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Thank you for reaching out! We have received your message.
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Our Team will connect at the earliest
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Best regards,
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Team PragatiWeb
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: --b1=_yRUtRD9hJcpRVjeiYUFyr73La20tNNTJoFSqRlUSDQ
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:             <div style="background-color: #007bff; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">Thank You, Arun!</h1>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Thank you for reaching out to us! We have received your message and appreciate you taking the time to get in touch.</p>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Our team will connect with you at the earliest opportunity.</p>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:                 <p style="font-size: 14px; color: #666666; margin: 0;">Best regards,<br><strong>Team PragatiWeb</strong></p>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: --b1=_yRUtRD9hJcpRVjeiYUFyr73La20tNNTJoFSqRlUSDQ--
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:08 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:01:09 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750827669 d9443c01a7336-237d83955a3sm121478035ad.36 - gsmtp
+
+2025-06-25 07:01:09 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:01:10 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-237d83955a3sm121478035ad.36 - gsmtp
+
+2025-06-25 07:01:10 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-237d83d5c97sm126254385ad.70 - gsmtp
+
+2025-06-25 07:01:10 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:01:10 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:01:10 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:01:10 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:01:10 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:01:11 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:01:11 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:01:11 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:01:11 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:01:11 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:01:11 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:01:12 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:01:12 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:01:12 - [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-237d83d5c97sm126254385ad.70 - gsmtp
+
+2025-06-25 07:01:12 - [1] CLIENT -> SERVER: RCPT TO:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:01:12 - [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-237d83d5c97sm126254385ad.70 - gsmtp
+
+2025-06-25 07:01:12 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:01:13 - [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-237d83d5c97sm126254385ad.70 - gsmtp
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:01:10 +0200
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: To: info.pragatiweb@gmail.com
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Subject: New Contact Form Submission from Arun
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Message-ID: <Glo3VEIaLL385wHuyt677bGI1JKpT38YKRgxc@localhost>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:  boundary="b1=_Glo3VEIaLL385wHuyt677bGI1JKpT38YKRgxc"
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: --b1=_Glo3VEIaLL385wHuyt677bGI1JKpT38YKRgxc
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: New submission:
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Name: Arun
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Mobile No: 7838400124
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Email: nauiyalar@gmail.com
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Product Type: School Management
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Institution: Pragatiweb
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: City: Gurgaon
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Message: Test
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: --b1=_Glo3VEIaLL385wHuyt677bGI1JKpT38YKRgxc
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:             <div style="background-color: #28a745; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">New Contact Form Submission</h1>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                 <h2 style="font-size: 18px; color: #333333; margin-top: 0;">Submission Details</h2>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                 <table style="width: 100%; border-collapse: collapse;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Name</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Arun</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Mobile No</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">7838400124</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Email</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">nauiyalar@gmail.com</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Product Type</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">School Management</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Institution</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Pragatiweb</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">City</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Gurgaon</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                    
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Message</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                 </table>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin: 0;">Transparency is key! We're here to answer your questions.</p>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: --b1=_Glo3VEIaLL385wHuyt677bGI1JKpT38YKRgxc--
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:01:13 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750827673 d9443c01a7336-237d83d5c97sm126254385ad.70 - gsmtp
+
+2025-06-25 07:01:13 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:01:14 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-237d83d5c97sm126254385ad.70 - gsmtp
+
+2025-06-25 07:06:02 - POST data:
+Array
+(
+    [name] => Arun
+    [email] => nautiyalar@gmail.com
+    [mobileno] => 7838400124
+    [institution_name] => Pragatiweb
+    [product_type] => School Management
+    [city] => Gurgaon
+    [message] => Test
+)
+
+2025-06-25 07:06:02 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-237d83fbe94sm122334265ad.86 - gsmtp
+
+2025-06-25 07:06:02 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:06:05 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:06:05 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:06:05 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:06:05 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:06:06 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:06:06 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:06:06 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:06:06 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:06:06 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:06:06 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:06:06 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:06:06 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:06:07 - [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-237d83fbe94sm122334265ad.86 - gsmtp
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: RCPT TO:<nautiyalar@gmail.com>
+
+2025-06-25 07:06:07 - [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-237d83fbe94sm122334265ad.86 - gsmtp
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:06:07 - [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-237d83fbe94sm122334265ad.86 - gsmtp
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:06:02 +0200
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: To: nautiyalar@gmail.com
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Subject: Thank You for Contacting Us
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Message-ID: <K4i46IQ58nuC4JMFNMd77yYOAYB2WEPB7jfqauT4@localhost>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:  boundary="b1=_K4i46IQ58nuC4JMFNMd77yYOAYB2WEPB7jfqauT4"
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: --b1=_K4i46IQ58nuC4JMFNMd77yYOAYB2WEPB7jfqauT4
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Dear Arun,
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Thank you for reaching out! We have received your message.
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Our Team will connect at the earliest
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Best regards,
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Team PragatiWeb
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: --b1=_K4i46IQ58nuC4JMFNMd77yYOAYB2WEPB7jfqauT4
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:             <div style="background-color: #007bff; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">Thank You, Arun!</h1>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Thank you for reaching out to us! We have received your message and appreciate you taking the time to get in touch.</p>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Our team will connect with you at the earliest opportunity.</p>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:                 <p style="font-size: 14px; color: #666666; margin: 0;">Best regards,<br><strong>Team PragatiWeb</strong></p>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: --b1=_K4i46IQ58nuC4JMFNMd77yYOAYB2WEPB7jfqauT4--
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:07 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:06:08 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750827968 d9443c01a7336-237d83fbe94sm122334265ad.86 - gsmtp
+
+2025-06-25 07:06:08 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:06:08 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-237d83fbe94sm122334265ad.86 - gsmtp
+
+2025-06-25 07:06:09 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-749c8854887sm3364250b3a.139 - gsmtp
+
+2025-06-25 07:06:09 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:06:09 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:06:09 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:06:09 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:06:09 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:06:10 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:06:10 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:06:10 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:06:10 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:06:10 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:06:10 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:06:11 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:06:11 - [2] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-749c8854887sm3364250b3a.139 - gsmtp
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: RCPT TO:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:06:11 - [2] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-749c8854887sm3364250b3a.139 - gsmtp
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:06:11 - [2] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-749c8854887sm3364250b3a.139 - gsmtp
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:06:08 +0200
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: To: info.pragatiweb@gmail.com
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Subject: New Contact Form Submission from Arun
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Message-ID: <qv3VGOxWplXcVQXfsLVD27tt0R0G3CcZYFR9CkUeCI@localhost>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:  boundary="b1=_qv3VGOxWplXcVQXfsLVD27tt0R0G3CcZYFR9CkUeCI"
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: --b1=_qv3VGOxWplXcVQXfsLVD27tt0R0G3CcZYFR9CkUeCI
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: New submission:
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Name: Arun
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Mobile No: 7838400124
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Email: nautiyalar@gmail.com
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Product Type: School Management
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Institution: Pragatiweb
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: City: Gurgaon
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Message: Test
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: --b1=_qv3VGOxWplXcVQXfsLVD27tt0R0G3CcZYFR9CkUeCI
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:             <div style="background-color: #28a745; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">New Contact Form Submission</h1>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                 <h2 style="font-size: 18px; color: #333333; margin-top: 0;">Submission Details</h2>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                 <table style="width: 100%; border-collapse: collapse;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Name</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Arun</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Mobile No</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">7838400124</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Email</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">nautiyalar@gmail.com</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Product Type</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">School Management</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Institution</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Pragatiweb</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">City</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Gurgaon</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                    
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Message</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                 </table>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin: 0;">Transparency is key! We're here to answer your questions.</p>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: --b1=_qv3VGOxWplXcVQXfsLVD27tt0R0G3CcZYFR9CkUeCI--
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:06:11 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:06:12 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750827972 d2e1a72fcca58-749c8854887sm3364250b3a.139 - gsmtp
+
+2025-06-25 07:06:12 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:06:13 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-749c8854887sm3364250b3a.139 - gsmtp
+
+2025-06-25 07:07:09 - POST data:
+Array
+(
+    [name] => Arun
+    [email] => nautiyalar@gmail.com
+    [mobileno] => 7838400124
+    [institution_name] => Pragaiweb
+    [product_type] => School Management
+    [city] => Gurgaon
+    [message] => Test
+)
+
+2025-06-25 07:07:09 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-749c882cccfsm3333004b3a.79 - gsmtp
+
+2025-06-25 07:07:09 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:07:09 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:07:09 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:07:09 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:07:10 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:07:10 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:07:10 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:07:10 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:07:10 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:07:10 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:07:10 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:07:13 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:07:13 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:07:13 - [2] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-749c882cccfsm3333004b3a.79 - gsmtp
+
+2025-06-25 07:07:13 - [1] CLIENT -> SERVER: RCPT TO:<nautiyalar@gmail.com>
+
+2025-06-25 07:07:14 - [2] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-749c882cccfsm3333004b3a.79 - gsmtp
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:07:14 - [2] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-749c882cccfsm3333004b3a.79 - gsmtp
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:07:09 +0200
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: To: nautiyalar@gmail.com
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Subject: Thank You for Contacting Us
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Message-ID: <9pMj9y1oymT7xKmDpSY7Gk0mOEl8nIF940xsXKg0EGQ@localhost>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:  boundary="b1=_9pMj9y1oymT7xKmDpSY7Gk0mOEl8nIF940xsXKg0EGQ"
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: --b1=_9pMj9y1oymT7xKmDpSY7Gk0mOEl8nIF940xsXKg0EGQ
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Dear Arun,
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Thank you for reaching out! We have received your message.
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Our Team will connect at the earliest
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Best regards,
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Team PragatiWeb
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: --b1=_9pMj9y1oymT7xKmDpSY7Gk0mOEl8nIF940xsXKg0EGQ
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:             <div style="background-color: #007bff; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">Thank You, Arun!</h1>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Thank you for reaching out to us! We have received your message and appreciate you taking the time to get in touch.</p>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Our team will connect with you at the earliest opportunity.</p>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:                 <p style="font-size: 14px; color: #666666; margin: 0;">Best regards,<br><strong>Team PragatiWeb</strong></p>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: --b1=_9pMj9y1oymT7xKmDpSY7Gk0mOEl8nIF940xsXKg0EGQ--
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:14 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:07:15 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750828035 d2e1a72fcca58-749c882cccfsm3333004b3a.79 - gsmtp
+
+2025-06-25 07:07:15 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:07:15 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-749c882cccfsm3333004b3a.79 - gsmtp
+
+2025-06-25 07:07:15 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-315f53c175dsm686116a91.21 - gsmtp
+
+2025-06-25 07:07:15 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:07:16 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:07:16 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:07:16 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:07:16 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:07:16 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:07:16 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:07:17 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:07:17 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:07:17 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:07:17 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:07:17 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:07:17 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:07:18 - [2] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-315f53c175dsm686116a91.21 - gsmtp
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: RCPT TO:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:07:18 - [2] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-315f53c175dsm686116a91.21 - gsmtp
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:07:18 - [2] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-315f53c175dsm686116a91.21 - gsmtp
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:07:15 +0200
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: To: info.pragatiweb@gmail.com
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Subject: New Contact Form Submission from Arun
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Message-ID: <xL7Tvyod8q3vq3MQWSuIjNle2uVaKaynPY6fTgybzU@localhost>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:  boundary="b1=_xL7Tvyod8q3vq3MQWSuIjNle2uVaKaynPY6fTgybzU"
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: --b1=_xL7Tvyod8q3vq3MQWSuIjNle2uVaKaynPY6fTgybzU
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: New submission:
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Name: Arun
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Mobile No: 7838400124
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Email: nautiyalar@gmail.com
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Product Type: School Management
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Institution: Pragaiweb
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: City: Gurgaon
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Message: Test
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: --b1=_xL7Tvyod8q3vq3MQWSuIjNle2uVaKaynPY6fTgybzU
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:             <div style="background-color: #28a745; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">New Contact Form Submission</h1>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                 <h2 style="font-size: 18px; color: #333333; margin-top: 0;">Submission Details</h2>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                 <table style="width: 100%; border-collapse: collapse;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Name</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Arun</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Mobile No</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">7838400124</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Email</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">nautiyalar@gmail.com</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Product Type</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">School Management</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Institution</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Pragaiweb</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">City</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Gurgaon</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                    
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Message</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                 </table>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin: 0;">Transparency is key! We're here to answer your questions.</p>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: --b1=_xL7Tvyod8q3vq3MQWSuIjNle2uVaKaynPY6fTgybzU--
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:07:18 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:07:19 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750828039 98e67ed59e1d1-315f53c175dsm686116a91.21 - gsmtp
+
+2025-06-25 07:07:19 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:07:19 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-315f53c175dsm686116a91.21 - gsmtp
+
+2025-06-25 07:10:28 - POST data:
+Array
+(
+    [name] => Arun
+    [email] => nautiyalar@gmail.com
+    [mobileno] => 7838400124
+    [institution_name] => Test
+    [product_type] => School Management
+    [city] => Test
+    [message] => Test
+)
+
+2025-06-25 07:10:29 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-237d866488csm122120915ad.158 - gsmtp
+
+2025-06-25 07:10:29 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:10:29 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:10:29 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:10:29 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:10:29 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:10:29 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:10:29 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:10:30 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:10:30 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:10:30 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:10:30 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:10:30 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:10:30 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:10:31 - [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-237d866488csm122120915ad.158 - gsmtp
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: RCPT TO:<nautiyalar@gmail.com>
+
+2025-06-25 07:10:31 - [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-237d866488csm122120915ad.158 - gsmtp
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:10:31 - [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-237d866488csm122120915ad.158 - gsmtp
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:10:28 +0200
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: To: nautiyalar@gmail.com
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Subject: Thank You for Contacting Us
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Message-ID: <aqSFKziaU2w2Y4XDHZf3Kji3eqKXMwDZtCkvTrrtZxw@localhost>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:  boundary="b1=_aqSFKziaU2w2Y4XDHZf3Kji3eqKXMwDZtCkvTrrtZxw"
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: --b1=_aqSFKziaU2w2Y4XDHZf3Kji3eqKXMwDZtCkvTrrtZxw
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Dear Arun,
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Thank you for reaching out! We have received your message.
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Our Team will connect at the earliest
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Best regards,
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Team PragatiWeb
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: --b1=_aqSFKziaU2w2Y4XDHZf3Kji3eqKXMwDZtCkvTrrtZxw
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:             <div style="background-color: #007bff; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">Thank You, Arun!</h1>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Thank you for reaching out to us! We have received your message and appreciate you taking the time to get in touch.</p>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Our team will connect with you at the earliest opportunity.</p>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:                 <p style="font-size: 14px; color: #666666; margin: 0;">Best regards,<br><strong>Team PragatiWeb</strong></p>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: --b1=_aqSFKziaU2w2Y4XDHZf3Kji3eqKXMwDZtCkvTrrtZxw--
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:31 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:10:32 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750828232 d9443c01a7336-237d866488csm122120915ad.158 - gsmtp
+
+2025-06-25 07:10:32 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:10:32 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-237d866488csm122120915ad.158 - gsmtp
+
+2025-06-25 07:10:33 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-237d8669cb8sm121225395ad.160 - gsmtp
+
+2025-06-25 07:10:33 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:10:33 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:10:33 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:10:33 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:10:33 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:10:34 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:10:34 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:10:34 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:10:34 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:10:34 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:10:34 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:10:35 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:10:35 - [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-237d8669cb8sm121225395ad.160 - gsmtp
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: RCPT TO:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:10:35 - [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-237d8669cb8sm121225395ad.160 - gsmtp
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:10:35 - [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-237d8669cb8sm121225395ad.160 - gsmtp
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:10:32 +0200
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: To: info.pragatiweb@gmail.com
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Subject: New Contact Form Submission from Arun
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Message-ID: <12zBmts8jpplsrPGsn7M6z38OwVBsGB6XfOoRJprEPY@localhost>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:  boundary="b1=_12zBmts8jpplsrPGsn7M6z38OwVBsGB6XfOoRJprEPY"
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: --b1=_12zBmts8jpplsrPGsn7M6z38OwVBsGB6XfOoRJprEPY
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: New submission:
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Name: Arun
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Mobile No: 7838400124
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Email: nautiyalar@gmail.com
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Product Type: School Management
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Institution: Test
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: City: Test
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Message: Test
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: --b1=_12zBmts8jpplsrPGsn7M6z38OwVBsGB6XfOoRJprEPY
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:             <div style="background-color: #28a745; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">New Contact Form Submission</h1>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                 <h2 style="font-size: 18px; color: #333333; margin-top: 0;">Submission Details</h2>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                 <table style="width: 100%; border-collapse: collapse;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Name</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Arun</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Mobile No</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">7838400124</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Email</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">nautiyalar@gmail.com</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Product Type</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">School Management</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Institution</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">City</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                    
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Message</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                 </table>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin: 0;">Transparency is key! We're here to answer your questions.</p>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: --b1=_12zBmts8jpplsrPGsn7M6z38OwVBsGB6XfOoRJprEPY--
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:10:35 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:10:36 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750828236 d9443c01a7336-237d8669cb8sm121225395ad.160 - gsmtp
+
+2025-06-25 07:10:36 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:10:37 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-237d8669cb8sm121225395ad.160 - gsmtp
+
+2025-06-25 07:11:58 - POST data:
+Array
+(
+    [name] => Arun
+    [email] => nautiyalar@gmail.com
+    [mobileno] => 7838400124
+    [institution_name] => Test
+    [product_type] => School Management
+    [city] => Gurgaon
+    [message] => Test
+)
+
+2025-06-25 07:11:59 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-749b5e0aae3sm3320397b3a.22 - gsmtp
+
+2025-06-25 07:11:59 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:11:59 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:11:59 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:11:59 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:11:59 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:11:59 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:11:59 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:12:00 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:12:00 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:12:00 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:12:00 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:12:01 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:12:01 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:12:01 - [2] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-749b5e0aae3sm3320397b3a.22 - gsmtp
+
+2025-06-25 07:12:01 - [1] CLIENT -> SERVER: RCPT TO:<nautiyalar@gmail.com>
+
+2025-06-25 07:12:01 - [2] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-749b5e0aae3sm3320397b3a.22 - gsmtp
+
+2025-06-25 07:12:01 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:12:02 - [2] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-749b5e0aae3sm3320397b3a.22 - gsmtp
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:11:58 +0200
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: To: nautiyalar@gmail.com
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Subject: Thank You for Contacting Us
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Message-ID: <clz39rPEd7BdcK6Da5yc6JORnGNAoGxtTC4Qjhrd8@localhost>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:  boundary="b1=_clz39rPEd7BdcK6Da5yc6JORnGNAoGxtTC4Qjhrd8"
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: --b1=_clz39rPEd7BdcK6Da5yc6JORnGNAoGxtTC4Qjhrd8
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Dear Arun,
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Thank you for reaching out! We have received your message.
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Our Team will connect at the earliest
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Best regards,
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Team PragatiWeb
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: --b1=_clz39rPEd7BdcK6Da5yc6JORnGNAoGxtTC4Qjhrd8
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:             <div style="background-color: #007bff; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">Thank You, Arun!</h1>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Thank you for reaching out to us! We have received your message and appreciate you taking the time to get in touch.</p>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:                 <p style="font-size: 16px; line-height: 1.6;">Our team will connect with you at the earliest opportunity.</p>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:                 <p style="font-size: 14px; color: #666666; margin: 0;">Best regards,<br><strong>Team PragatiWeb</strong></p>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: --b1=_clz39rPEd7BdcK6Da5yc6JORnGNAoGxtTC4Qjhrd8--
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:12:02 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750828322 d2e1a72fcca58-749b5e0aae3sm3320397b3a.22 - gsmtp
+
+2025-06-25 07:12:02 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:12:03 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-749b5e0aae3sm3320397b3a.22 - gsmtp
+
+2025-06-25 07:12:03 - [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-315f53879bbsm752442a91.9 - gsmtp
+
+2025-06-25 07:12:03 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:12:03 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:12:03 - [1] CLIENT -> SERVER: STARTTLS
+
+2025-06-25 07:12:03 - [2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-06-25 07:12:04 - [1] CLIENT -> SERVER: EHLO localhost
+
+2025-06-25 07:12:04 - [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2405:201:4010:39ff:d45e:61bc:deea:7eee]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-06-25 07:12:04 - [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-06-25 07:12:04 - [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-06-25 07:12:04 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:12:04 - [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-06-25 07:12:04 - [1] CLIENT -> SERVER: [credentials hidden]
+2025-06-25 07:12:05 - [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-06-25 07:12:05 - [1] CLIENT -> SERVER: MAIL FROM:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:12:05 - [2] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-315f53879bbsm752442a91.9 - gsmtp
+
+2025-06-25 07:12:05 - [1] CLIENT -> SERVER: RCPT TO:<info.pragatiweb@gmail.com>
+
+2025-06-25 07:12:05 - [2] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-315f53879bbsm752442a91.9 - gsmtp
+
+2025-06-25 07:12:05 - [1] CLIENT -> SERVER: DATA
+
+2025-06-25 07:12:06 - [2] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-315f53879bbsm752442a91.9 - gsmtp
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Date: Wed, 25 Jun 2025 07:12:03 +0200
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: To: info.pragatiweb@gmail.com
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: From: PragatiWeb <info.pragatiweb@gmail.com>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Subject: New Contact Form Submission from Arun
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Message-ID: <PT7wFa72KhhoPT9rC1YrnfEHNr1KH17uNIsxfEtdsM8@localhost>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:  boundary="b1=_PT7wFa72KhhoPT9rC1YrnfEHNr1KH17uNIsxfEtdsM8"
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: --b1=_PT7wFa72KhhoPT9rC1YrnfEHNr1KH17uNIsxfEtdsM8
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: New submission:
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Name: Arun
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Mobile No: 7838400124
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Email: nautiyalar@gmail.com
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Product Type: School Management
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Institution: Test
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: City: Gurgaon
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Message: Test
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: --b1=_PT7wFa72KhhoPT9rC1YrnfEHNr1KH17uNIsxfEtdsM8
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:     <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:         <div style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:             <div style="background-color: #28a745; color: #ffffff; padding: 15px; text-align: center; border-radius: 8px 8px 0 0;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                 <h1 style="margin: 0; font-size: 24px;">New Contact Form Submission</h1>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:             <div style="padding: 20px; color: #333333;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                 <h2 style="font-size: 18px; color: #333333; margin-top: 0;">Submission Details</h2>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                 <table style="width: 100%; border-collapse: collapse;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Name</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Arun</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Mobile No</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">7838400124</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Email</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">nautiyalar@gmail.com</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Product Type</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">School Management</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     <tr style="background-color: #f9f9f9;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Institution</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">City</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Gurgaon</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                    
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     <tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; font-weight: bold; border: 1px solid #dddddd;">Message</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                         <td style="padding: 10px; border: 1px solid #dddddd;">Test</td>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                     </tr>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                 </table>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:             <div style="text-align: center; padding: 10px; border-top: 1px solid #eeeeee;">
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin: 0;">Transparency is key! We're here to answer your questions.</p>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:                 <p style="font-size: 12px; color: #999999; margin-top: 10px;">© 2025 PragatiWeb. All rights reserved.</p>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:             </div>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:         </div>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER:     </div>
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: --b1=_PT7wFa72KhhoPT9rC1YrnfEHNr1KH17uNIsxfEtdsM8--
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: 
+
+2025-06-25 07:12:06 - [1] CLIENT -> SERVER: .
+
+2025-06-25 07:12:07 - [2] SERVER -> CLIENT: 250 2.0.0 OK  1750828326 98e67ed59e1d1-315f53879bbsm752442a91.9 - gsmtp
+
+2025-06-25 07:12:07 - [1] CLIENT -> SERVER: QUIT
+
+2025-06-25 07:12:07 - [2] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-315f53879bbsm752442a91.9 - gsmtp
+
