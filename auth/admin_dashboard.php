@@ -159,7 +159,7 @@ $role_id = $_SESSION['role_id'];
       <input type="email" id="emailInput" class="form-control" value="<?php echo htmlspecialchars($email); ?>" readonly>
       <div id="emailMessage" class="text-success mt-1 save-message d-none">Email updated</div>
     </div>
-    <p><strong>Role:</strong><br><?php echo htmlspecialchars($role_id); ?></p>
+    <!-- <p><strong>Role:</strong><br><?php echo htmlspecialchars($role_id); ?></p> -->
     <hr>
     <a href="logout.php" class="btn btn-outline-danger w-100 mt-2">Logout</a>
     <button class="btn btn-outline-secondary w-100 mt-2" data-bs-toggle="modal" data-bs-target="#changePasswordModal">Change Password</button>
