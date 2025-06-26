@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif, Arial;
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .popup {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      width: 400px;
+      box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+      position: relative;
+    }
+
+    .input-container {
+      margin: 15px 0;
+    }
+
+    .input-container input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    .alert {
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="popup">
+    <div id="errorBox" class="alert">Invalid username or password</div>
+
+    <form id="loginForm">
+      <h2>Login</h2>
+      <div class="input-container">
+        <input type="text" name="username" id="loginUsername" placeholder="Username or Email" required>
+      </div>
+      <div class="input-container">
+        <input type="password" name="password" id="loginPassword" placeholder="Password" required>
+        <div style="text-align: right; margin-top: 5px;">
+          <a href="forgot_password.html" style="font-size: 0.9em; color: #007bff;">Forgot Password?</a>
+        </div>
+      </div>
+      <button type="submit" class="btn">Login</button>
+    </form>
+
+
+    <p style="margin-top: 10px;">Don't have an account? <a href="register.html">Create New Account</a></p>
+  </div>
+
+  <script>
+    const loginForm = document.getElementById("loginForm");
+    const errorBox = document.getElementById("errorBox");
+
+    loginForm.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const username = document.getElementById("loginUsername").value;
+      const password = document.getElementById("loginPassword").value;
+
+      const formData = new FormData();
+      formData.append("username", username);
+      formData.append("password", password);
+
+      try {
+        const response = await fetch("ajax_login.php", {
+          method: "POST",
+          body: formData
+        });
+
+        const result = await response.text();
+
+        if (result.trim() === "admin") {
+          window.location.href = "admin_dashboard.php";
+        } else if (result.trim() === "user") {
+          window.location.href = "dashboard.php";
+        } else {
+          errorBox.style.display = "block";
+          setTimeout(() => {
+            errorBox.style.display = "none";
+          }, 3000);
+        }
+      } catch (err) {
+        console.error("Login error:", err);
+        errorBox.textContent = "Server error. Please try again.";
+        errorBox.style.display = "block";
+        setTimeout(() => {
+          errorBox.style.display = "none";
+        }, 3000);
+      }
+    });
+
+    document.getElementById("loginUsername").addEventListener("input", () => {
+      errorBox.style.display = "none";
+    });
+    document.getElementById("loginPassword").addEventListener("input", () => {
+      errorBox.style.display = "none";
+    });
+  </script>
+</body>
+</html>
