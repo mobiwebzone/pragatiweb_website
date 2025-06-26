@@ -21,6 +21,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
     }
 }
+
+
+session_start();
+$role_id = $_SESSION['role_id'] ?? 0;
+$dashboard = ($role_id == 1) ? "admin_dashboard.php" : "dashboard.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -87,7 +93,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
 
         <button type="submit" class="btn btn-primary">Assign</button>
-        <a href="admin_dashboard.php" class="btn btn-secondary ms-2">Back to Main Form</a>
+        <!-- <a href="admin_dashboard.php" class="btn btn-secondary ms-2">Back to Main Form</a> -->
+        <a href="<?= $dashboard ?>" class="btn btn-secondary ms-2">Back to Main Menu</a>
       </form>
     </div>
   </div>

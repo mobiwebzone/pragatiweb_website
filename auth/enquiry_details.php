@@ -36,11 +36,21 @@ $result = $conn->query("SELECT * FROM mysql_enquiries ORDER BY id ");
   </style>
 </head>
 <body>
-  <div class="heading">
-    <h2>Enquiry Details</h2>
-    <a href="admin_dashboard.php" class="btn btn-back">Back to Main Form</a>
-  </div>
+  
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+$role_id = $_SESSION['role_id'] ?? 0;
+$backLink = ($role_id == 1) ? 'admin_dashboard.php' : 'dashboard.php';
+?>
 
+<div class="heading">
+  <h2>Enquiry Details</h2>
+  <a href="<?php echo $backLink; ?>" class="btn btn-back">Back to Main Form</a>
+</div>
+
+  
   <div class="container">
     <table class="table table-bordered table-striped">
       <thead class="table-dark">

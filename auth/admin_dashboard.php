@@ -108,14 +108,28 @@ $role_id = $_SESSION['role_id'];
       <a class="navbar-brand" href="#">Admin Dashboard</a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
-  <li class="nav-item dropdown">
+  
+  
+    <!-- School Management -->
+ <li class="nav-item dropdown">
+    
+    <a class="nav-link dropdown-toggle " href="#" id="enquiryMgmtDropdown" role="button" data-bs-toggle="dropdown">
+      School
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="http://103.25.174.53:8080/pragatiweb/backoffice/index.html#!/login" target="_blank">School Management</a></li>
+    </ul>
+  </li>
+
+  <!-- User Management -->
+        <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="userMgmtDropdown" role="button" data-bs-toggle="dropdown">
       User Management
     </a>
     <ul class="dropdown-menu">
       <li><a class="dropdown-item" href="create_user_with_grid.php">Create New User</a></li>
-      <li><a class="dropdown-item" href="create_roles_with_grid.php">Create New Role</a></li>
-      <li><a class="dropdown-item" href="create_menus_with_grid.php">Create New Menu</a></li>
+      <li><a class="dropdown-item" href="create_roles.php">Create New Role</a></li>
+      <li><a class="dropdown-item" href="create_menu_with_grid.php">Create New Menu</a></li>
       <li><a class="dropdown-item" href="assign_menu_to_role.php">Assign Menus to Role</a></li>
       <li><a class="dropdown-item" href="assign_role_to_user.php">Assign Role to User</a></li>
     </ul>
@@ -131,6 +145,9 @@ $role_id = $_SESSION['role_id'];
       <li><a class="dropdown-item" href="enquiry_details.php">Enquiry Details</a></li>
     </ul>
   </li>
+
+  
+
 </ul>
 
       </div>

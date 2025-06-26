@@ -17,6 +17,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->close();
     }
 }
+
+session_start();
+$role_id = $_SESSION['role_id'] ?? 0;
+$dashboard = ($role_id == 1) ? "admin_dashboard.php" : "dashboard.php";
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,7 +68,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           <input type="text" class="form-control" id="role_name" name="role_name" required>
         </div>
         <button type="submit" class="btn btn-primary">Create Role</button>
-        <a href="admin_dashboard.php" class="btn btn-secondary float-end">Back to Main Form</a>
+
+        <!-- <a href="admin_dashboard.php" class="btn btn-secondary float-end">Back to Main Form</a> -->
+        <a href="<?= $dashboard ?>" class="btn btn-secondary float-end">Back to Main Menu</a>
       </form>
     </div>
   </div>
