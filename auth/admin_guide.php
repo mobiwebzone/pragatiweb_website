@@ -20,46 +20,60 @@ $selected_doc = $docs[0] ?? null;
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
+      background-color: #f1f1f1;
     }
     .sidebar {
       height: 100vh;
-      width: 250px;
+      width: 240px;
       position: fixed;
       background-color: #0b63ce;
-      padding-top: 20px;
       overflow-y: auto;
     }
     .sidebar h4 {
-      color: white;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .sidebar a {
-      padding: 10px 20px;
-      display: block;
-      color: white;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .sidebar a:hover, .sidebar a.active {
+      color: #fff;
+      font-size: 20px;
+      padding: 15px;
+      border-bottom: 1px solid #074aa1;
+      margin: 0;
       background-color: #074aa1;
     }
-    .content {
-      margin-left: 250px;
-      padding: 30px;
+    .sidebar a {
+      display: block;
+      padding: 12px 16px;
+      color: white;
+      text-decoration: none;
+      border-bottom: 1px solid #0e71dd;
     }
-   .doc-container {
-            background-color: #e9f2fb; /* Very light blue */
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05);
-            min-height: 500px;
-            }
-
+    .sidebar a:hover, .sidebar a.active {
+      background-color: #0855b0;
+    }
+    .content {
+      margin-left: 240px;
+      padding: 20px 30px;
+      background-color: #ffffff;
+      min-height: 100vh;
+    }
+    .top-bar {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 15px;
+    }
+    .doc-container {
+      border-left: 6px solid #0b63ce;
+      background-color: #f9fbff;
+      padding: 20px 25px;
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
     .doc-title {
-      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: 600;
       color: #0b63ce;
+      margin-bottom: 20px;
+    }
+    .doc-content {
+      font-size: 16px;
+      color: #333;
     }
     @media screen and (max-width: 768px) {
       .sidebar {
@@ -76,7 +90,7 @@ $selected_doc = $docs[0] ?? null;
 <body>
 
 <div class="sidebar">
-  <h4>📚 Admin Guide</h4>
+  <h4>📘 Admin Guide</h4>
   <?php foreach ($docs as $index => $doc): ?>
     <a href="#" class="doc-link <?= $index === 0 ? 'active' : '' ?>" data-id="<?= $doc['id'] ?>">
       <?= htmlspecialchars($doc['title']) ?>
@@ -85,10 +99,14 @@ $selected_doc = $docs[0] ?? null;
 </div>
 
 <div class="content">
+  <div class="top-bar">
+    <a href="admin_dashboard.php" class="btn btn-secondary">Back to Main Form</a>
+  </div>
+
   <div class="doc-container" id="docContent">
     <?php if ($selected_doc): ?>
       <h3 class="doc-title"><?= htmlspecialchars($selected_doc['title']) ?></h3>
-      <div><?= $selected_doc['content'] ?></div>
+      <div class="doc-content"><?= $selected_doc['content'] ?></div>
     <?php else: ?>
       <p>No documentation available.</p>
     <?php endif; ?>
@@ -110,7 +128,7 @@ $selected_doc = $docs[0] ?? null;
       if (selected) {
         document.getElementById("docContent").innerHTML = `
           <h3 class="doc-title">${selected.title}</h3>
-          <div>${selected.content}</div>
+          <div class="doc-content">${selected.content}</div>
         `;
       }
     });
