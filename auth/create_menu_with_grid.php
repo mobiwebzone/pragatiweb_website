@@ -134,7 +134,7 @@ $menus = $conn->query("SELECT id, menu_name, menu_link FROM menus");
                   <td><?= htmlspecialchars($row['menu_name']) ?></td>
                   <td><?= htmlspecialchars($row['menu_link']) ?></td>
                   <td>
-                    <a href="create_menu_with_grid.php?edit_id=<?= $row['id'] ?>" class="btn btn-sm btn-warning">Edit</a>
+                    <a href="create_menu_with_grid.php?edit_id=<?= $row['id'] ?>" class="btn btn-sm btn-primary">Edit</a>
                     <a href="create_menu_with_grid.php?delete_id=<?= $row['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete this menu?')">Delete</a>
                   </td>
                 </tr>

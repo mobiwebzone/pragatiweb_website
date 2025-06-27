@@ -96,7 +96,7 @@ $role_id = $_SESSION['role_id'];
     }
 
     
-    .enquiry-menu {
+    .right-menu_margin {
       margin-right: 110px;
                   }
 
@@ -138,7 +138,7 @@ $role_id = $_SESSION['role_id'];
   <!-- 🔹 Enquiry Management Menu -->
   <li class="nav-item dropdown">
     
-    <a class="nav-link dropdown-toggle enquiry-menu" href="#" id="enquiryMgmtDropdown" role="button" data-bs-toggle="dropdown">
+    <a class="nav-link dropdown-toggle " href="#" id="enquiryMgmtDropdown" role="button" data-bs-toggle="dropdown">
       Enquiry Management
     </a>
     <ul class="dropdown-menu">
@@ -146,7 +146,28 @@ $role_id = $_SESSION['role_id'];
     </ul>
   </li>
 
-  
+
+  <!-- 🔹 Support Menu -->
+  <!-- <li class="nav-item dropdown">
+    
+    <a class="nav-link dropdown-toggle right-menu_margin" href="#" id="supportMgmtDropdown" role="button" data-bs-toggle="dropdown">
+      Support
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Admin Documentation</a></li>
+      <li><a class="dropdown-item" href="#">Admin Guide</a></li>
+    </ul>
+  </li> -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle right-menu_margin" href="#" id="supportMgmtDropdown" role="button" data-bs-toggle="dropdown">
+        Support
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="admin_documentation.php">Admin Documentation</a></li>
+        <li><a class="dropdown-item" href="admin_guide.php">Admin Guide</a></li>
+      </ul>
+    </li>
+
 
 </ul>
 
